@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+body {
+    font-family: 'Cormorant Garamond',sans-serif;
+}
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+.sidenav h2{
+    font-family: 'Notable', sans-serif;
+    font-size: 50px;
+    color: #fff;
+
+}
+.sidenav p{
+    font-family: 'Lobster Two',sans-serif;
+    font-size: 20px;
+}
+.sidenav {
+    height: 100%;
+    background-color: #004275;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main {
+    padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 50%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+.main .login-form .form-group .form-control{
+    border-color: #004275;
+}
+.main .login-form h3{
+    color:   #004275;
+    /* font-family: cursive; */
+}
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #004275 !important;
+    color: #fff;
+}
+.btn-black:hover{
+   color: #fff;
+}
+.btn-second{
+    background-color:#ffa34d !important;
+    color: #fff;
+    
+}
