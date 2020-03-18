@@ -1,0 +1,12 @@
+@import url('dashboard.css');
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+.role-form{
+
+    padding-left: 0%;
+    width: 100%;
+}
