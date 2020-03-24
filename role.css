@@ -5,8 +5,12 @@
     height: 150px;
     background: #FFF;
 }
-.role-form{
+.form-role{
 
     padding-left: 0%;
-    width: 100%;
+    padding-top: 10%;
+    width: 50%;
+}
+.active a:focus{
+    color: #FF6347;
 }

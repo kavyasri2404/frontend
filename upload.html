@@ -44,11 +44,11 @@
                 <li>
                     <a href="manage-warehouse.html"><i class="fa fa-list" aria-hidden="true"></i>Manage-Warehouse</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="#"><i class="fa fa-upload" aria-hidden="true"></i>Upload</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-level-up" aria-hidden="true"></i>Reconcile</a>
+                    <a href="reconcile.html"><i class="fa fa-level-up" aria-hidden="true"></i>Reconcile</a>
                 </li>
                 <li>
                     <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
@@ -65,6 +65,40 @@
                     </button>
                 </div>
             </nav>
+        </div>
+        <div class="form-role">
+            <div class="col-sm-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputsm">Warehouse Name:</label>
+                        <input class="form-control input-sm" id="inputsm" type="text" placeholder="Warehouse Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputsm">Warehouse code:</label>
+                        <input class="form-control input-sm" id="inputsm" type="text" placeholder="Warehouse Code">
+                    </div>
+                    <!-- <div class="input-group">
+                        <div class="input-group-prepend">
+                        <h5>Warehouse file:</h5>
+                          <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                        </div>
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="inputGroupFile01"
+                            aria-describedby="inputGroupFileAddon01">
+                          <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        </div>
+                    </div> -->
+                    <div class="form-group">
+                        <label for="inputsm">Warehouse Address:</label>
+                        <input class="form-control input-sm" id="inputsm" type="text" placeholder="Warehouse Address">
+                    </div>
+                    <br>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-success active" role="button" aria-pressed="true">Create</a>
+                        <a href="#" class="btn btn-danger active" role="button" aria-pressed="true">Cancel</a>
+                    </div>
+                </form>
+            </div>
         </div>
 </body>
 

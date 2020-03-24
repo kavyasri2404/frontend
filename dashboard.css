@@ -72,13 +72,6 @@ ul ul a {
 a[data-toggle="collapse"] {
     position: relative;
 }
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -87,8 +80,8 @@ a[data-toggle="collapse"] {
         margin-left: 0;
     }
 }
-@media(min-width:768px){
+/* @media(min-width:768px){
     #sidebarCollapse{
       display:none;
     }
-  }
+} */
